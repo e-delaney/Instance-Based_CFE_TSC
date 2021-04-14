@@ -1,6 +1,3 @@
-# Instance-Based_CFE_TSC
-This repository provides details of the experiments in the paper: **Instance-based Counterfactual Explanations for Time Series Classification**.
-
 # Instance-based Counterfactual Explanation for Time Series Classification
 
 This supplementary repository provides details of the experiments in the paper **Instance-based Counterfactual Explanations for Time Series Classification**. Please read the paper for full details of this research.
