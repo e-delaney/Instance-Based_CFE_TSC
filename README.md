@@ -2,7 +2,7 @@
 
 This supplementary repository provides details of the experiments in the paper **Instance-based Counterfactual Explanations for Time Series Classification**. Please read the paper for full details of this research.
 
-The central idea behind Native Guide is that existing counterfactual instances can be retrieved for any query and used to guide the counterfactual generation process. If we integrate feature attribution information or deep features into the generation process these can also be used to generate sparse counterfactuals that provide information about discriminative and often meaningful areas of the time series. An explanation weight vector **w**, is often available from the base classifier (e.g. from the activations of DNNs) and in the case where such information is not available, model agnostic techniques such as SHAP could be implemented.
+The central idea behind Native Guide is that existing counterfactual instances can be retrieved for any query and used to guide the counterfactual generation process. By integratrating feature attribution information/deep features into the counterfactual generation process, Native Guide can generate sparse counterfactuals that provide information about discriminative and often meaningful areas of the time series. An explanation weight vector **w**, is often available from the base classifier (e.g. from the activations of DNNs) and in the case where such information is not available, model agnostic techniques such as SHAP could be implemented.
 
 ![Image of FCN](https://github.com/e-delaney/Instance-based_CFE_TSC/blob/main/Method_BIG.PNG)
 
