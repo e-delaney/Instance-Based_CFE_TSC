@@ -10,7 +10,7 @@ The central idea behind the Native Guide technique is that existing counterfactu
 The datasets used are from the UCR archive (http://www.timeseriesclassification.com/) [1]. We can import these datasets directly in the code using tslearn functionality. 
 
 ### Black-box Classifier
-We have trained a fully convolutional neural network (FCN) originally proposed by Wang et al. [2] for time series classification, closely following the implementation by Fawaz et al. [3] (https://github.com/hfawaz/dl-4-tsc). This can be found in the FCN file. Weights are saved for future use where we want to call this pretrained model. 
+We have trained a fully convolutional neural network (FCN) originally proposed by Wang et al. [2] for time series classification, closely following the implementation by Fawaz et al. [3] (https://github.com/hfawaz/dl-4-tsc). This can be found in the FCN file. Weights are saved for future use where we want to call this pre-trained model. 
 
 ![Image of FCN](https://github.com/e-delaney/Instance-based_CFE_TSC/blob/main/FCN_compressed.PNG)
 
