@@ -1,6 +1,6 @@
 # Instance-based Counterfactual Explanation for Time Series Classification
 
-This supplementary repository provides details of the experiments in the paper **Instance-based Counterfactual Explanations for Time Series Classification**. Please read the paper for full details of this research.
+This supplementary repository provides details of the experiments in the paper **Instance-based Counterfactual Explanations for Time Series Classification** which will appear in ICCBR 2021. Please read the paper for full details of this research.
 
 The central idea behind the Native Guide technique is that existing counterfactual instances can be retrieved for any query and used to guide the counterfactual generation process. By integratrating feature attribution information/deep features into the counterfactual generation process, Native Guide can generate sparse counterfactuals that provide information about discriminative and often meaningful areas of the time series. An explanation weight vector **w**, is often available from the base classifier (e.g. from the activations of DNNs) and in the case where such information is not available, model agnostic techniques such as SHAP could be implemented.
 
@@ -24,6 +24,8 @@ Native guide uses the explanation weight vector (from the CAM) and the in-sample
 ### Benchmark Models and Comparison
 We implement the NUN-CF (just the retrieved NUN without adaptation) and the Wachter-CF [5] methods as comparison models. We evaluate our counterfactuals based on proximity, sparsity, plausibility, and diversity. Unlike tabular data, we can also visualize the explanations! 
 
+### Acknowledgements
+We would like to thank the curators of the UCR archive as the datasets were used extensively in our experiments. We would also like to thank Hassan Ismail Fawaz and his colleagues as their excellent [open source code](https://github.com/hfawaz/dl-4-tsc) was extremely useful in training the DNN and generating Class Activation Maps. Many of the plots were inspired by the excellent [blog post](https://towardsdatascience.com/cyberpunk-style-with-matplotlib-f47404c9d4c5) of Dominik Haitz.    
 
 ### References
 
